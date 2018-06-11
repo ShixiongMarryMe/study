@@ -4,18 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: ShixiongMarryMe
+subtitle: Study Blog
+description: Wait for me to be monarchy, Would you like to marry me?
+author: ShixiongMarryMe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: 'ShixiongMarryMe.github.io' 
+baseurl: '/study'
 permalink: pretty
 
 # Pagination
