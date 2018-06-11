@@ -1,3 +1,4 @@
+encoding: UTF-8
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
@@ -168,11 +169,11 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  # ÍâÁ´×ÖÌå¿âµØÖ·£¬ÀıÈç //fonts.googleapis.com (Ä¬ÈÏÖµ)
+  # å¤–é“¾å­—ä½“åº“åœ°å€ï¼Œä¾‹å¦‚ //fonts.googleapis.com (é»˜è®¤å€¼)
   host:
 
   # Global font settings used on <body> element.
-  # È«¾Ö×ÖÌå£¬Ó¦ÓÃÔÚ body ÔªËØÉÏ
+  # å…¨å±€å­—ä½“ï¼Œåº”ç”¨åœ¨ body å…ƒç´ ä¸Š
   global:
     # external: true will load this font family from host.
     external: true
@@ -220,10 +221,10 @@ font:
 social:
   GitHub: https://github.com/your-user-name
   Twitter: https://twitter.com/your-user-name
-  Î¢²©: http://weibo.com/your-user-name
-  ¶¹°ê: http://douban.com/people/your-user-name
-  Öªºõ: http://www.zhihu.com/people/your-user-name
-  # µÈµÈ
+  å¾®åš: http://weibo.com/your-user-name
+  è±†ç“£: http://douban.com/people/your-user-name
+  çŸ¥ä¹: http://www.zhihu.com/people/your-user-name
+  # ç­‰ç­‰
 
 # Social Links Icons
 # Icon Mapping:
@@ -335,10 +336,10 @@ post_wordcount:
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber¶©ÔÄÎ¢ĞÅ¹«ÖÚºÅ:
+#wechat_subscriberè®¢é˜…å¾®ä¿¡å…¬ä¼—å·:
   #enabled: true
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account»¶Ó­ÄúÉ¨Ò»É¨ÉÏÃæµÄÎ¢ĞÅ¹«ÖÚºÅ£¬¶©ÔÄÎÒµÄ²©¿Í£¡
+  #description: ex. subscribe to my blog by scanning my public wechat accountæ¬¢è¿æ‚¨æ‰«ä¸€æ‰«ä¸Šé¢çš„å¾®ä¿¡å…¬ä¼—å·ï¼Œè®¢é˜…æˆ‘çš„åšå®¢ï¼
 
 # Declare license on posts
 post_copyright:
@@ -377,7 +378,7 @@ highlight_theme: normal
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
-# MathJax Support ½èÖúÓÚ MathJax À´ÏÔÊ¾ÊıÑ§¹«Ê½
+# MathJax Support å€ŸåŠ©äº MathJax æ¥æ˜¾ç¤ºæ•°å­¦å…¬å¼
 mathjax:
   enable: true
   per_page: false
@@ -395,7 +396,7 @@ han: false
 # Duoshuo ShortName
 #duoshuo_shortname:
 
-# DisqusÆÀÂÛÏµÍ³
+# Disqusè¯„è®ºç³»ç»Ÿ
 disqus:
   enable: false
   shortname:
@@ -407,7 +408,7 @@ disqus:
 # Hypercomments
 #hypercomments_id:
 
-# Gentie productKeyÍøÒ×ÔÆ¸úÌû
+# Gentie productKeyç½‘æ˜“äº‘è·Ÿå¸–
 #gentie_productKey:
 
 # changyan
@@ -420,7 +421,7 @@ changyan:
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
 
-# Support for LiveRe comments system.À´±ØÁ¦
+# Support for LiveRe comments system.æ¥å¿…åŠ›
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: ShixiongMarryMe
 livere_uid: "MTAyMC8zNzI0Mi8xMzc3Ng=="
@@ -596,7 +597,7 @@ exturl: false
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
 #! ---------------------------------------------------------------
 
-# Motion¿ªÆô¶¯»­Ğ§¹û
+# Motionå¼€å¯åŠ¨ç”»æ•ˆæœ
 use_motion: true
 
 # Fancybox
@@ -622,10 +623,10 @@ pace: false
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
 
-# Canvas-nestÁ½ÖÖ±³¾°¶¯»­Ğ§¹û
+# Canvas-nestä¸¤ç§èƒŒæ™¯åŠ¨ç”»æ•ˆæœ
 canvas_nest: true
 
-# three_wavesÁ½ÖÖ±³¾°¶¯»­Ğ§¹û
+# three_wavesä¸¤ç§èƒŒæ™¯åŠ¨ç”»æ•ˆæœ
 three_waves: false
 
 # canvas_lines
@@ -730,7 +731,7 @@ images: assets/images
 version: 5.1.1
 
 
-#´òÉÍ¹¦ÄÜ£ºÌîÈë Î¢ĞÅ ºÍ Ö§¸¶±¦ ÊÕ¿î¶şÎ¬ÂëÍ¼Æ¬µØÖ· ¼´¿É¿ªÆô¸Ã¹¦ÄÜ
-reward_comment: ¼á³ÖÔ­´´¼¼Êõ·ÖÏí£¬ÄúµÄÖ§³Ö½«¹ÄÀøÎÒ¼ÌĞø´´×÷£¡
+#æ‰“èµåŠŸèƒ½ï¼šå¡«å…¥ å¾®ä¿¡ å’Œ æ”¯ä»˜å® æ”¶æ¬¾äºŒç»´ç å›¾ç‰‡åœ°å€ å³å¯å¼€å¯è¯¥åŠŸèƒ½
+reward_comment: åšæŒåŸåˆ›æŠ€æœ¯åˆ†äº«ï¼Œæ‚¨çš„æ”¯æŒå°†é¼“åŠ±æˆ‘ç»§ç»­åˆ›ä½œï¼
 wechatpay: /path/to/wechat-reward-image
 alipay: /path/to/alipay-reward-image
