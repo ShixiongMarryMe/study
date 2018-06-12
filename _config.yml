@@ -624,10 +624,10 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest两种背景动画效果
-canvas_nest: true
+canvas_nest: false
 
 # three_waves两种背景动画效果
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
