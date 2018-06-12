@@ -4,7 +4,6 @@ title: 译“差分隐私的算法基础”
 subtitle: 摘要
 date: 2018-05-22
 author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation.jpg 
 catalog: true
 tags:
     - DP 
