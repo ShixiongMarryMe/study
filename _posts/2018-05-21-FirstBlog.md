@@ -5,6 +5,7 @@ description: Confess to Shixiong
 date: 2018-05-21 
 author: ShixiongMarryMe  
 link: http://shixiongmarryme.github.io/
+comments: true
 photos:
     -
 categories:
