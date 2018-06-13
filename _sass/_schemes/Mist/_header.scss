@@ -53,7 +53,7 @@
     display: block;
     height: 2px;
     //background: $black-deep;
-    background: $SpringGreen;
+    background: $green;
     @include mobile() { height: 3px; }
   }
 }
