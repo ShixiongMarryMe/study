@@ -142,7 +142,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
+  commonweal: rocket
 
 
 
@@ -242,7 +242,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -391,7 +391,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: f4b138cb1c36893b3979ed3515ee4a56
 
 # Duoshuo ShortName
 #duoshuo_shortname:
