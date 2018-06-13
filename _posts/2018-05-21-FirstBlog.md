@@ -4,18 +4,16 @@ title: First Blog
 description: Confess to Shixiong
 date: 2018-05-21 
 author: ShixiongMarryMe  
-link: http://www.google.com/
-image: http://gastonsanchez.com/images/blog/mathjax_logo.png
+link: ShixiongMarryMe.github.io
 photos:
-    - http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg
-catalog: true  
+    -
 categories:
     - King
 tags: 
     - 
 --- 
 
-## :rose: First blog，confess to Shixiong :kissing_heart:
+## First blog :rose: confess to Shixiong :kissing_heart:
 
 Yesterday, I signed up for Github and tossed the blog more than a day. 
 
