@@ -20,16 +20,16 @@ baseurl: '/study'
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 9
 #paginate_path: "/page:num/"
 #archive:
-  #paginate: 10
+  #paginate: 9
   #paginate_path: "/page:num/"
 #category:
-  #paginate: 10
+  #paginate: 9
   #paginate_path: "/page:num/"
 #tag:
-  #paginate: 10
+  #paginate: 9
   #paginate_path: "/page:num/"
 
 # Handling Reading
@@ -177,29 +177,35 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Monda
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  #标题字体
   # Fallback to `global` font settings.
   headings:
     external: true
     family: Roboto Slab
+    size: 25
 
   # Font settings for posts
+  #文章字体
   # Fallback to `global` font settings.
   posts:
     external: true
     family:
+    size: 16
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
+  # Logo 字体
   logo:
     external: true
     family: Lobster Two
-    size: 24
+    size: 30
 
   # Font settings for <code> and code blocks.
+  # 代码字体，应用于 code 以及代码块
   codes:
     external: true
     family: PT Mono
