@@ -4,7 +4,7 @@ title: First Blog
 description: Confess to Shixiong
 date: 2018-05-21 
 author: ShixiongMarryMe  
-link: ShixiongMarryMe.github.io
+link: https://ShixiongMarryMe.github.io
 photos:
     -
 categories:
