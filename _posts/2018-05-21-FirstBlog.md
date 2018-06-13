@@ -21,4 +21,4 @@ The first blog failed to catch up with 5.20, but it doesn't matter. 5.21 can als
 
 You had me at Hello. :revolving_hearts: :revolving_hearts: :revolving_hearts:
 
-> <span style="color:orange">To see more, please visit [Homepage](https://ShixiongMarryMe.github.io/).</span>
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
