@@ -124,9 +124,9 @@ menu:
   schedule: 
   archives: archives/
   tags: tags/
-  search: 
+  search: search.xml
   sitemap: sitemap.xml
-  commonweal: 404/404.html
+  commonweal: 404.html
 
 
 # Enable/Disable menu icons.
