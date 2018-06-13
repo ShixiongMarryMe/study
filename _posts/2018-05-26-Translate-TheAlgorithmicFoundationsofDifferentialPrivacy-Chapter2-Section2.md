@@ -1,20 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 第二章/第二节
-date: 2018-05-26
-author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation5.jpg 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Chapter2-Section2 
+date: 2018-05-26 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 ## 2.2 定义隐私数据分析
 
@@ -31,5 +31,9 @@ tags:
 其次，与加密方案一样，我们需要隐私机制有用，这意味着它会教会分析师以前不知道的事情。这种教学对敌手模拟器不可用，也就是说，没有一个模拟器可以“预测”分析师已经学到了什么。因此，我们可以将数据库视为随机（不可预知）位的弱来源，从中我们可以提取一些非常高质量的随机性用作随机填充（random pad此处不会翻译，姑且译为随机填充）。这可被用于将秘密消息添加到随机值的加密技术（“随机填充”）中，以产生理论上的隐藏秘密信息的字符串。只有知道随机填充的人才能知道这个秘密，任何对这个填充一无所知的一方都不会了解这个秘密，不管他或她的计算能力如何。鉴于对数据库的访问，分析人员可以学习随机填充，但敌手模拟器（无法访问数据库）根本没有获知有关填充的信息@师兄嫁我。因此，作为辅助信息，使用随机填充对秘密进行加密，分析师可以破解该秘密，但攻击者模拟器根本不了解秘密。这在对手/分析师学习秘密的能力与对手模拟器做同样事情的能力之间产生巨大的差距，从而消除任何类似语义安全的全部希望。
 
 吸烟导致癌症的例子和语义安全希望的障碍都是辅助信息。很显然，即使在“合理的”辅助知识背景下，隐私保证也必须具有意义，但将合理性从任意辅助知识中分离出去是有问题的。例如，使用政府数据库的分析师可能是一家主要搜索引擎公司的员工，那么什么是对提供给这样的人可用的辅助知识信息的“合理的”假设？
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__

@@ -1,20 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 第二章/第一节
-date: 2018-05-25
-author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation4.jpg 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Chapter2-Section1 
+date: 2018-05-25 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 # 2 基本条款
 
@@ -35,5 +35,9 @@ tags:
 *隐私机制*或者任何一种简单的*机制*是一种算法。这个算法以数据库、任意数据类型的χ(所有可能的数据库行的集合)、随机位，以及可选的一组查询作为输入，并生成输出字符串。如果输出字符串存在的话，我们希望其可以被解码以产生相对精确的查询答案@师兄嫁我。如果没有查询出现，即我们处于非交互式的情况，我们则希望输出字符串可以被理解为为将来的查询提供答案。
 
 在某些情况下，@ShixiongMarryMe我们可能要求输出的字符串是一个合成数据库。这是一个从所有可能的数据库行中提取的多重集。在这种情况下，解码的方法是在合成数据库上执行查询，然后应用某种简单的变换（例如乘以比例因子）以获得对查询的真实答案的近似。
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__

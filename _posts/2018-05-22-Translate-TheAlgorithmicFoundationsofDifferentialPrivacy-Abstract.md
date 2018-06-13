@@ -1,19 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 摘要
-date: 2018-05-22
-author: ShixiongMarryMe 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Abstract 
+date: 2018-05-22 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 # 摘要
 
@@ -25,15 +26,10 @@ tags:
 
 最后，我们注意到，这项工作是对差分隐私问题和技术的彻底介绍，但并不打算作为详尽的介绍，因为目前在差分隐私方面存在大量工作，而且我们只能涵盖它的一小部分。
 
-__*欢迎纠正不妥之处，转载敬请注明出处*__
-
 ***
 
-> <span style="color:orange">`来聊聊背景图片的故事吧`</span>
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
 
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
-
-
-
-<shixiongmarryme@wo.cn>
- 	 	
+__*欢迎纠正不妥之处，转载敬请注明出处*__

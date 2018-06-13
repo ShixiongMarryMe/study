@@ -1,20 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 前言
-date: 2018-05-23
-author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation2.jpg 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Preface 
+date: 2018-05-23 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 # 前言
 
@@ -29,5 +29,9 @@ tags:
 在第10章和第11章中，我们从基础知识转到查询发布以外的应用程序，讨论机制设计和机器学习的差分隐私方法。绝大多数关于差分隐私算法的文献都考虑了经过许多分析的单一静态数据库@ShixiongMarryMe。其他模型(包括分布式数据库和数据流计算)中的差分隐私在第12章中讨论。
 
 最后，我们注意到，这项工作是对差分隐私问题和技术的彻底介绍，但并不打算作为详尽的介绍，因为目前在差分隐私方面存在大量工作，而且我们只能涵盖它的一小部分。
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__

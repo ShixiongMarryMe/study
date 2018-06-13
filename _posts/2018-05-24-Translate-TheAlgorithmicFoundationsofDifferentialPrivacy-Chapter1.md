@@ -1,20 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 第一章
-date: 2018-05-24
-author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation3.jpg 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Chapter1 
+date: 2018-05-24 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 # 1 差分隐私的承诺
 
@@ -53,5 +53,9 @@ tags:
 ## 1.2 书目注释
 
 略
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__

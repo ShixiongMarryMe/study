@@ -1,20 +1,20 @@
 --- 
-layout: post 
-title: 译“差分隐私的算法基础”
-subtitle: 第二章/第三节
-date: 2018-05-27
-author: ShixiongMarryMe 
-header-img: img/post-bg-DPTranslation6.jpg 
-catalog: true
-tags:
-    - DP 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Chapter2-Section3 
+date: 2018-05-26 
+author: ShixiongMarryMe  
+link: 
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
     - Translation
 --- 
->The Algorithmic Foundations of Differential Privacy  
+
 >@Cynthia Dwork
 >@Aaron Roth
-
-（背景图片来自网络，侵删歉）
 
 ## 2.3 形式化差分隐私
 
@@ -83,5 +83,9 @@ x∈N<sup>|χ|</sup>，其中每个条目xi表示数据库x中元素的数量，
 其中机制M的概率空间在硬币翻转之上（ the probability space is over the coin flips of the mechanism M. 不会翻译，附上原句）。如果δ= 0，我们说M是ε-差分隐私。
 
 通常我们感兴趣的是δ值小于数据库大小的任何多项式的倒数。特别当δ值大约为1 /‖x‖1时是非常危险的：它们通过发布少量数据库参与者的完整记录来允许“保护隐私” - 正是在第1章中讨论的“少数”哲学。
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__
