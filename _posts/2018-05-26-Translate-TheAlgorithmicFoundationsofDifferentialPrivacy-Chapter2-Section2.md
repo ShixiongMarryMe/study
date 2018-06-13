@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Translate "The Algorithmic Foundations of Differential Privacy"
-description: Chapter2-Section2 
+description: Chapter2/Section2 
 date: 2018-05-26 
 author: ShixiongMarryMe  
 link: 
