@@ -9,6 +9,7 @@ title: ShixiongMarryMe
 subtitle: Study Blog
 description: Wait for me to be monarchy, Would you like to marry me?
 author: ShixiongMarryMe
+
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -119,14 +120,14 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  about: about/
-  categories: categories/
+  about: /about/
+  categories: /categories/
   schedule: 
-  archives: archives/
-  tags: tags/
-  search: search.xml
-  sitemap: sitemap.xml
-  commonweal: 404.html
+  archives: /archives/
+  tags: /tags/
+  search: /search.xml
+  sitemap: /sitemap.xml
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
