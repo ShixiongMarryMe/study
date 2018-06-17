@@ -15,7 +15,6 @@ $grey-light   : #ccc;
 $grey         : #bbb;
 $grey-dark    : #999;
 $grey-dim     : #666;
-$green        : #008000
 $black-light  : #555;
 $black-dim    : #333;
 $black-deep   : #222;
@@ -24,10 +23,7 @@ $blue-bright  : #87daff;
 $blue         : #0684bd;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
-$hotpink      : #ff69b4
-$lemonchiffon : #fffacd
-$lightgoldenrodyellow: #fafad2
-$yellow: #ffff00
+
 
 
 // Scaffolding
@@ -95,8 +91,7 @@ $font-weight-bolder       : 700;
 
 
 // Font size
-//$font-size-base           : 14px;
-$font-size-base           : 36px;
+$font-size-base           : 14px;
 $font-size-small          : $font-size-base - 2px;
 $font-size-smaller        : $font-size-base - 4px;
 $font-size-large          : $font-size-base + 2px;
@@ -105,8 +100,7 @@ $font-size-larger         : $font-size-base + 4px;
 
 // Headings font size
 $font-size-headings-step    : 2px;
-//$font-size-headings-base    : 24px;
-$font-size-headings-base    : 60px;
+$font-size-headings-base    : 24px;
 $font-size-headings-small   : $font-size-headings-base - $font-size-headings-step;
 $font-size-headings-smaller : $font-size-headings-small - $font-size-headings-step;
 $font-size-headings-large   : $font-size-headings-base + $font-size-headings-step;
@@ -273,8 +267,7 @@ $read-more-border-radius        : 0;
 // Sidebar
 // Variables for sidebar section elements.
 // --------------------------------------------------
-//$sidebar-nav-color                    : $black-light;
-$sidebar-nav-color                    : $hotpink;
+$sidebar-nav-color                    : $black-light;
 $sidebar-nav-hover-color              : $whitesmoke;
 $sidebar-highlight                    : $blue-bright;
 
@@ -321,8 +314,7 @@ $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
 $b2t-font-size                : 12px;
 $b2t-color                    : white;
-//$b2t-bg-color                 : $black-deep;
-$b2t-bg-color                 : $yellow;
+$b2t-bg-color                 : $black-deep;
 
 // full-image
 $full-image-width             : 110%;
