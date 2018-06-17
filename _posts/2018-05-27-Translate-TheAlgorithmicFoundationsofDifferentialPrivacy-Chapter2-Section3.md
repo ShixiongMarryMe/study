@@ -106,7 +106,7 @@ x∈N<sup>|χ|</sup>，其中每个条目xi表示数据库x中元素的数量，
 
 定理2.2。 对于所有的‖x-y‖<sub>1</sub>≤k和所有的S⊆Range（M），群体的大小为k，任何满足（ε，0）-差分隐私机制M都是（kε, 0）-差分隐私。
 
-<center>Pr[m(x)∈S] ≤exp(kε) Pr[m(y)∈S],</center >
+Pr[m(x)∈S] ≤exp(kε) Pr[m(y)∈S],
 
 其中概率空间超过机制M的硬币翻转。_（where the probability space is over the coin flips of the mechanism M.附原句）_
 
@@ -115,6 +115,10 @@ x∈N<sup>|χ|</sup>，其中每个条目xi表示数据库x中元素的数量，
 更一般地说，组合和群体隐私不是同一件事情，第3.5.2节（定理3.20）中改进的组合边界大大改善了k因子，但即使当δ= 0时,不能（也做不到）为群体隐私产生同样的收益。
 
 ### 2.3.1 差分隐私承诺什么
+
+### 2.3.2 什么是差分隐私不承诺的
+
+### 2.3.3 关于定义的最后评论
 
 > <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
 
