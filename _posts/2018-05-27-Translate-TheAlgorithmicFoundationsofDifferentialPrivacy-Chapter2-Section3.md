@@ -85,6 +85,16 @@ x∈N<sup>|χ|</sup>，其中每个条目xi表示数据库x中元素的数量，
 
 通常我们感兴趣的是δ值小于数据库大小的任何多项式的倒数。特别当δ值大约为1 /‖x‖1时是非常危险的：它们通过发布少量数据库参与者的完整记录来允许“保护隐私” - 正是在第1章中讨论的“少数”哲学。
 
+然而，即使δ可以忽略不计，（ε，0）-差分隐私与（ε，δ）-差分隐私之间也存在理论上的区别。 这其中的主要区别就是量化顺序的切换。（ε，0）-差分隐私确保了对于机制M（x）的每次运行，所观察到的输出（几乎）同样可能在每个相邻的数据库上同时被观察到。 相反，（ε，δ）-差分隐私表示，对于每一对相邻的数据库x，y，事后观察值M（x）极不可能在当数据库是x时比数据库是y时产生更多或更少。 然而，给定一个输出ξ〜M（x），有可能找到一个数据库y，使得ξ更有可能在y上产生，而不是在数据库为x时产生。 也就是说，分布M（y）中ξ的数量可能远大于其分布M（x）中的数量。
+
+这数量
+
+![1529219578(1).png](https://i.loli.net/2018/06/17/5b260a92e72f0.png)
+
+对我们很重要; 我们称之为由观察ξ引起的隐私损失。这种损失可能是正值(当事件更可能发生在x而不是y时)或者可能是负面的(当事件更可能发生在y而不是x时)。 正如我们将在引理3.17中看到的那样，(ε，δ) –差分隐私确保了对于所有相邻的x，y，隐私损失的绝对值将以ε界定，其概率至少为1-δ。 与往常一样，概率空间位于机制M的硬币之上。@ShixiongMarryMe_（As always, the probability space iss of the mechanism M.附原句，此句不会翻译 ）_
+
+
+
 > <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
 
 > <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
