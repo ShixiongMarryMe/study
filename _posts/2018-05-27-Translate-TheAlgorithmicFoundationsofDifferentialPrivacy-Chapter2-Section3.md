@@ -149,7 +149,7 @@ Pr[m(x)∈S] ≤exp(kε) Pr[m(y)∈S],
 
 不容易啊，拖了这么久，也不知道自己在忙啥，20天才把2.3-2.4节翻译完。
 期间折腾了Github blog 到现在是越搞越咋搞（手动捂脸）。
-现在折腾完了第二章的翻译，开始继续折腾bolg去啦~~~
+现在折腾完了第二章的翻译，开始继续折腾blog去啦~~~
 
 > <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
 
