@@ -54,7 +54,7 @@ Pr[S < (1-ε)μ ] ≤ e<sup>−μmε<sup>2</sup></sup>/3（注：原文为/2，�
 
 ![3.3.png](https://i.loli.net/2018/06/18/5b27568e21014.png)
 
-**定理3.4**（斯特林逼近）。N！可以由<img src="http://latex.codecogs.com/gif.latex?\sqrt{2n\pi&space;}(n/e)^{n}" title="\sqrt{2n\pi }(n/e)^{n}" />近似为：
+**定理3.4**（斯特林逼近）。N！可以由<img src="http://latex.codecogs.com/gif.latex?\sqrt{2n\pi&space;}(n/e)^{n}"/>近似为：
 
 ![3.4.png](https://i.loli.net/2018/06/18/5b2757c87df44.png)
 
