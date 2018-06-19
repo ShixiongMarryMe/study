@@ -1,8 +1,8 @@
 --- 
 layout: post
 title: Translate "The Algorithmic Foundations of Differential Privacy"
-description: Chapter3/Section1 
-date: 2018-06-18 
+description: Chapter3/Section2 
+date: 2018-06-19 
 author: ShixiongMarryMe  
 link: 
 comments: true
@@ -32,9 +32,9 @@ tags:
 
 **声明3.5。** 上面描述的随机响应的版本是（ln 3，0）-差分隐私。
 
-*证明。* 对某一个受访者。案例分析显示 Pr[响应=是|真实=是]=3/4。具体来说，当事实是“是”时，如果第一个硬币出现尾部（概率1/2）或第一个和第二个出现头部（概率1/4），则结果将是“是”），而Pr[响应=是|真实=否]=1/4（第一次出现正面，第二次出现尾巴;概率1/4）。对“否”的答案应用类似的推理，我们获得：
+*证明。* 对某一个受访者。案例分析显示 Pr[响应=是`|`真实=是]=3/4。具体来说，当事实是“是”时，如果第一个硬币出现尾部（概率1/2）或第一个和第二个出现头部（概率1/4），则结果将是“是”），而Pr[响应=是`|`真实=否]=1/4（第一次出现正面，第二次出现尾巴;概率1/4）。对“否”的答案应用类似的推理，我们获得：
 
-<img src="http://latex.codecogs.com/gif.latex?\inline&space;\fn_cs&space;\frac{Pr[Response&space;=&space;Yes|Truth&space;=&space;Yes]}{Pr[Response&space;=&space;Yes|Truth&space;=&space;No]}&space;=\frac{3/4}{1/4}=\frac{Pr[Response&space;=&space;No|Truth&space;=&space;No]}{Pr[Response&space;=&space;No|Truth&space;=&space;Yes]}&space;=3" title="\frac{Pr[Response = Yes|Truth = Yes]}{Pr[Response = Yes|Truth = No]} =\frac{3/4}{1/4}=\frac{Pr[Response = No|Truth = No]}{Pr[Response = No|Truth = Yes]} =3" />
+<img src="http://latex.codecogs.com/gif.latex?\inline&space;\fn_cs&space;\frac{Pr[Response&space;=&space;Yes|Truth&space;=&space;Yes]}{Pr[Response&space;=&space;Yes|Truth&space;=&space;No]}&space;=\frac{3/4}{1/4}=\frac{Pr[Response&space;=&space;No|Truth&space;=&space;No]}{Pr[Response&space;=&space;No|Truth&space;=&space;Yes]}&space;=3"/>
 
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;□
 
@@ -50,16 +50,11 @@ tags:
 
 > <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
 
-[^_^]:
-    &nbsp;这是空行
-
-[>_<]:
-    &#160;这是空格
 
 __*欢迎纠正不妥之处，转载敬请注明出处*__
 
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (&nbsp;这是空行)
+[comment]: <> (&#160;这是空格)
 [comment]: <> (a reference style link.)
 [//]: <> (This is also a comment.)
 [//]: # (This may be the most platform independent comment)
@@ -80,25 +75,25 @@ __*欢迎纠正不妥之处，转载敬请注明出处*__
  \sqrt{3x-1}+(1+x)^2
  $$
 
-$\frac{Pr[Response = Yes|Truth = Yes]}{Pr[Response = Yes|Truth = No]} =\frac{3/4}{1/4}=\frac{Pr[Response = No|Truth = No]}{Pr[Response = No|Truth = Yes]} =3$ 
+ $$
+ \frac{Pr[Response = Yes|Truth = Yes]}{Pr[Response = Yes|Truth = No]} =\frac{3/4}{1/4}=\frac{Pr[Response = No|Truth = No]}{Pr[Response = No|Truth = Yes]} =3
+ $$
 
  $$h(\theta)=\sum_{j=0}^n \theta_jx_j$$
 
  &fnof;(x)=x+1
 
-\frac{1+1}{2}+1
+ $$\frac{1+1}{2}+1$$
 
  &radic;5
 
-&fnof;(x)=x+1
+ 立白&reg;
 
-立白&reg;
+ 30&deg;
 
-30&deg;
+ z=z_l
 
-z=z_l
-
-\frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2}
+ $$\frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2}$$
 
 ↑ This block just for test Mathematical formula
 
