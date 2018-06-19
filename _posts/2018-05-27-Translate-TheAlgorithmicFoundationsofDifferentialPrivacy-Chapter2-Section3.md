@@ -5,7 +5,7 @@ description: Chapter2/Section3
 date: 2018-05-27 
 author: ShixiongMarryMe  
 link: 
-comments: false
+comments: true
 photos:
     -
 categories:

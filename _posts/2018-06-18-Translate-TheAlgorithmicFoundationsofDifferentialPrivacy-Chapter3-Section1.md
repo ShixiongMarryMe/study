@@ -5,7 +5,7 @@ description: Chapter3/Section1
 date: 2018-06-18 
 author: ShixiongMarryMe  
 link: 
-comments: false
+comments: true
 photos:
     -
 categories:
@@ -61,6 +61,8 @@ Pr[S < (1-ε)μ ] ≤ e<sup>−μmε<sup>2</sup></sup>/3（注：原文为/2，�
 ---
 今天端午节哎，想吃个粽子呢Ψ(￣∀￣)Ψ。
 
+&nbsp;
+
 > <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
 
 > <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
@@ -68,8 +70,25 @@ Pr[S < (1-ε)μ ] ≤ e<sup>−μmε<sup>2</sup></sup>/3（注：原文为/2，�
 __*欢迎纠正不妥之处，转载敬请注明出处*__
 
 
-      This block used for test LaTeX
+ 	↓ This block just for test Mathematical formula
+ $$
+ \sqrt{3x-1}+(1+x)^2
+ $$
 
-      \[\sqrt{2n\pi }(n/e)^{n}\]
+ $$h(\theta)=\sum_{j=0}^n \theta_jx_j$$
 
-      This block used for test LaTeX
+ &fnof;(x)=x+1
+
+ &radic;5
+
+30&deg;
+
+z=z_l
+
+\frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2}
+
+
+ 	↑ This block just for test Mathematical formula
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>

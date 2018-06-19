@@ -1,0 +1,106 @@
+--- 
+layout: post
+title: Translate "The Algorithmic Foundations of Differential Privacy"
+description: Chapter3/Section1 
+date: 2018-06-18 
+author: ShixiongMarryMe  
+link: 
+comments: true
+photos:
+    -
+categories:
+    - Differential Privacy
+tags: 
+    - Translation
+--- 
+
+>Author: &#160;&#160;&#160;&#160;&#160;&#160;@Cynthia Dwork &#160;&#160;@Aaron Roth
+>
+>Translator: @ShixiongMarryMe
+
+
+### 3.2 随机应答
+让我们回顾第2节中描述的简单随机响应机制，用于评估尴尬或非法行为的频率。有XYZ这样一个活动。 面对“你过去一周是否参与了XYZ？” 这个问题，受访者被指示执行以下步骤：
+
+1.翻转一枚硬币。
+
+2.如果是尾巴，然后如实回复。
+
+3.如果是头，然后翻转第二个硬币，如果是头，则回答“是”，如果是尾，则回答“否”。
+
+随机响应背后的直觉是它提供了“合理的可否认性”。例如，可能提供了“是”的响应，因为第一次和第二次硬币翻转都是头部，其以1/4的概率出现。换句话说，隐私是通过流程获得的，没有“好”或“坏”的回应。获得答复的过程影响他们如何做合理的解释。如下一个声明所示，随机应答满足差分隐私。
+
+**声明3.5。** 上面描述的随机响应的版本是（ln 3，0）-差分隐私。
+
+*证明。* 对某一个受访者。案例分析显示 Pr[响应=是|真实=是]=3/4。具体来说，当事实是“是”时，如果第一个硬币出现尾部（概率1/2）或第一个和第二个出现头部（概率1/4），则结果将是“是”），而Pr[响应=是|真实=否]=1/4（第一次出现正面，第二次出现尾巴;概率1/4）。对“否”的答案应用类似的推理，我们获得：
+
+<img src="http://latex.codecogs.com/gif.latex?\inline&space;\fn_cs&space;\frac{Pr[Response&space;=&space;Yes|Truth&space;=&space;Yes]}{Pr[Response&space;=&space;Yes|Truth&space;=&space;No]}&space;=\frac{3/4}{1/4}=\frac{Pr[Response&space;=&space;No|Truth&space;=&space;No]}{Pr[Response&space;=&space;No|Truth&space;=&space;Yes]}&space;=3" title="\frac{Pr[Response = Yes|Truth = Yes]}{Pr[Response = Yes|Truth = No]} =\frac{3/4}{1/4}=\frac{Pr[Response = No|Truth = No]}{Pr[Response = No|Truth = Yes]} =3" />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;□
+
+---
+
+昨天终究是没吃粽子ー(￣～￣)ξ，
+
+师兄离校倒计时4天(づ╥﹏╥)づ，
+
+今天开始备考期末英语了*(￣△￣；)。
+
+> <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
+
+> <span style="color:orange"> Connect with me at <span style="color:blue"><shixiongmarryme@gmail.com></span>. </span>
+
+[^_^]:
+    &nbsp;这是空行
+
+[>_<]:
+    &#160;这是空格
+
+__*欢迎纠正不妥之处，转载敬请注明出处*__
+
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+[//]: <> (This is also a comment.)
+[//]: # (This may be the most platform independent comment)
+[^_^]:
+    &nbsp;这是空行
+
+[>_<]:
+    &#160;这是空格
+
+[>_>]:
+    3
+
+
+
+↓ This block just for test Mathematical formula
+
+ $$
+ \sqrt{3x-1}+(1+x)^2
+ $$
+
+$\frac{Pr[Response = Yes|Truth = Yes]}{Pr[Response = Yes|Truth = No]} =\frac{3/4}{1/4}=\frac{Pr[Response = No|Truth = No]}{Pr[Response = No|Truth = Yes]} =3$ 
+
+ $$h(\theta)=\sum_{j=0}^n \theta_jx_j$$
+
+ &fnof;(x)=x+1
+
+\frac{1+1}{2}+1
+
+ &radic;5
+
+&fnof;(x)=x+1
+
+立白&reg;
+
+30&deg;
+
+z=z_l
+
+\frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2}
+
+↑ This block just for test Mathematical formula
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
