@@ -43,7 +43,7 @@ tags:
 
 **定义3.3**（拉普拉斯机制）。 给定任意函数f：N<sup>|X|</sup>→R<sup>k</sup>，拉普拉斯机制被定义为：
 
-`M<sub>L</sub>(x,f(·),ε)=f(x)+(Y<sub>1</sub>,...,Y<sub>k</sub>)`
+M<sub>L</sub>(x,f(·),ε)=f(x)+(Y<sub>1</sub>,...,Y<sub>k</sub>)
 
 其中Y<sub>i</sub>是i.i.d（独立同分布）。随机变量来自Lap（Δf/ε）。
 
@@ -61,13 +61,13 @@ m个计数查询的固定但任意列表可以被视为矢量值查询。在没�
 
 **事实3.7。** 如果Y〜Lap（b），那么：
 
-`Pr[`|`Y`|`≥t·b] = exp（-t）。`
+Pr[｜Y|≥t·b] = exp（-t）。
 
 这个事实与一个联合界限一起给了我们一个关于拉普拉斯机制的准确性的简单界限：
 
 **定理3.8。**有函数f：N<sup>|X|</sup>→R<sup>k</sup>，令y=M<sub>k</sub> (x,f(·),ε)。则对∀δ∈(0，1]有:
 
-`Pr[‖f(x)-y‖<sup>∞</sup> ≥ ln(k/δ) * (Δf/ε)]≤δ`
+Pr[‖f(x)-y‖<sup>∞</sup> ≥ ln(k/δ) * (Δf/ε)]≤δ
 
 证明。略，后续有空补上，详见原著P34。□
 
@@ -89,6 +89,8 @@ m个计数查询的固定但任意列表可以被视为矢量值查询。在没�
 师兄离校倒计时第3天，内心毫无波动，因为不敢有所波动(/▽╲)
 
 一堆功课要复习啊，今天就先大体的翻译到这，日后有空 再细看有没有错误，请多担待。(｡•́__ก̀｡)
+
+好想有空把博客的页面细节搞搞呢⊙﹏⊙
 
 
 > <span style="color:orange"> To see more, please visit [<span style="color:blue">Homepage</span>](https://ShixiongMarryMe.github.io/). </span>
