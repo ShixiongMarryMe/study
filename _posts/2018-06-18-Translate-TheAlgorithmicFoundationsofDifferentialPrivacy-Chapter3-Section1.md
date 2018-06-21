@@ -14,7 +14,7 @@ tags:
     - Translation
 --- 
 
->Author: &#160;&#160;&#160;&#160;&#160;@Cynthia Dwork &#160;&#160;@Aaron Roth
+>Author: &#160;&#160;&#160;&#160;&#160;&#160;@Cynthia Dwork &#160;&#160;@Aaron Roth
 >
 >Translator: @ShixiongMarryMe
 
