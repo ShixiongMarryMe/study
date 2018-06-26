@@ -41,7 +41,9 @@ Part 3 修订工作
 - 2. Check for coherent flow and transitions. 最好坚持清晰和简洁的写作，并且在第一次尝试时就很难指出这一点。 重新回顾一下你的工作，并重新解释任何模棱两可或罗嗦的东西。
 - 3. 校对。
 
-## 2.仅对原文 *[How to Do a Literature Review](http://bbs.pinggu.org/jg/wenxian_wenxianku_401437_1.html)* 中自己觉得有用的进行摘录整理
+## 2.仅对原文 *[How to Write a Literature Review](http://bbs.pinggu.org/jg/wenxian_wenxianku_401437_1.html)* 中自己觉得有用的进行摘录整理
+
+## 3.仅对原文 *[How to Write a Literature Review](https://wenku.baidu.com/view/f2335fdf85868762caaedd3383c4bb4cf7ecb7f3.html)* 中自己觉得有用的进行摘录整理
 
 ***未完待续。。。***
 
